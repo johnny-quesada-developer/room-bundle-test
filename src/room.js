@@ -1,6 +1,6 @@
 (function () {
-  const shouldOverride = localStorage.getItem("vera-test");
-  if(!shouldOverride) return;
+  const shouldOverride = localStorage.getItem("error-test");
+  if(shouldOverride) return;
 
   const RTCPeerConnection = window.RTCPeerConnection;
   if (!RTCPeerConnection) return;
